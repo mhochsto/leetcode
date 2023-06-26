@@ -5,7 +5,7 @@ bool isPalindrome(char *s){
     char str[str_len];
     int j = 0;
 
-    if (!str_len <= 1)
+    if (str_len <= 1)
         return (true);
     for (int i = 0; i < str_len; i++)
     {

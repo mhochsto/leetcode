@@ -2,14 +2,15 @@
 
 int removeDuplicates(int* nums, int numsSize)
 {
-    int i = 0;
-
+   int i = 0;
+    
     for (int j = 1; j < numsSize; j++)
     {
-        if (nums[i] == nums[j])
-            memmove(&nums[i], &nums[j], (numsSize - i) * sizeof(int));
-        else
+        if (nums[j] != nums[i])
+        {
             i++;
+            nums[i] = nums[j];
+        }
     }
-    return (i);
+    return (i + 1);
 }
