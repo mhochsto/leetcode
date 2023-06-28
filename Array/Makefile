@@ -6,7 +6,8 @@ CC := cc -g
 
 SRC := 	main.c					\
 		removeDuplicates.c		\
-		isPalindrome.c
+		isPalindrome.c			\
+		isAnagram.c
 
 
 OBJ := $(SRC:.c=.o)

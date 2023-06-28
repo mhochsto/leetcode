@@ -26,5 +26,17 @@ int main(void)
             printf("incorectly detected palindrome\n");
     }
     */
+   
+    /* isAnagram */
+    /*
+    {
+        if (isAnagram("anagram", "nagaram"))
+            printf("correctly detected anagram\n");
+        if (isPalindrome("rat", "car"))
+            printf("incorectly detected anagram\n");
+    }
+    */
+
+
     return (0);
 }

@@ -15,8 +15,10 @@ int removeDuplicates(int* nums, int numsSize);
 
 /*
     strlen > 0 required.    
-    Also no null safeguard since strlen > 0 
-    is a given according to the suject.
 */
 bool isPalindrome(char * s);
+
+/* checks if s is an Anagram of t*/
+bool isAnagram(char * s, char * t);
+
 #endif
